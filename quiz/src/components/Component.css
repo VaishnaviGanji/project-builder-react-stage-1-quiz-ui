@@ -1,0 +1,208 @@
+.home {
+    margin: none;
+    background-color: rgb(78, 78, 148);
+    height: 983px;
+}
+
+.home h1{
+    margin:0px;
+    padding-top:400px;
+    font-size: 50px;
+    font-weight: 100;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.play{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 350px;
+    margin-top: 30px;
+    font-size: 15px;
+    border-radius: 24px;
+    background-color: rgb(87,184,70);
+}
+
+.quiz {
+    margin: none;
+    padding-top: 40px;
+    padding-left: 150px;
+    padding-right: 150px;
+    background-color: rgb(78, 78, 148);
+    height: 963px;
+    /* border: 5px solid white; */
+}
+
+.question {
+    background-color: white;
+    color: black;
+    width: 1500px;
+    height: 600px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.text {
+    margin: 50px;
+}
+
+.question .text h1 {
+    font-weight: 100;
+    font-size: 60px;
+}
+.option{
+    border-style: none;
+    background-color:rgb(46, 167, 241);
+    width: 650px;
+    height: 60px;
+    border-radius: 30px;
+    color:white;
+    margin: 10px;
+}
+.answer{
+    margin: 5px;
+    display: flex;
+    flex-direction:row;
+    justify-content:space-around;
+}
+.row{
+    margin-top: 30px;
+}
+.prev{
+    background-color: rgb(12,133,208);
+    border: none;
+    color: white;
+    margin:10px;
+    padding:10px;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.next{
+    background-color: rgb(87,184,70);
+    border: none;
+    color: white;
+    margin:10px;
+    padding:10px;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.quit{
+    background-color:rgb(234,67,85);
+    border: none;
+    color: white;
+    margin:10px;
+    padding:10px;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.checkmark {
+    display: inline-block;
+    transform: rotate(45deg);
+    height: 30px;
+    width: 12px;
+    margin: 10px;
+    margin-bottom: 30px;
+    border-bottom: 7px solid #78b13f;
+    border-right: 7px solid #78b13f;
+}
+
+.result {
+    background-color: rgb(78, 78, 148);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 983px;
+}
+
+.res-text {
+    color: #78b13f;
+    font-size: 40px;
+    font-weight: lighter;
+    margin: 10px;
+    height: 100px;
+}
+.stats{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    color: black;
+    height:350px;
+    width:800px;
+    margin-left: 500px;
+    margin-top: 20px;
+}
+
+.statshead{
+    font-weight: lighter;
+    font-size: 30px;
+    color:black;
+    width: 600px;
+    margin-left:10px;
+    height: 20px;
+}
+
+.statsscore{
+    font-weight: lighter;
+    font-size: 50px;
+    color: rgb(28, 140, 209);
+    width: 600px;
+    margin-left:10px;
+
+
+}
+.statsdetmarks{
+    display: flex;
+    flex-direction: row;
+    margin-top:10px;
+}
+
+.statsdetails,.statsmarks{
+    display: flex;
+    flex-direction: column;
+}
+.statsdetails{
+    margin-right: 500px;
+}
+span{
+    margin-bottom: 10px;
+}
+
+.btnss{
+    margin-top: 15px;
+}
+
+.playagainbtn{
+    background-color:rgb(64,64,122) ;
+    border:2px solid  rgb(12,133,208);
+    color:  rgb(12,133,208);
+    border-radius: 5px;
+    margin-right: 10px;
+    font-size: large;
+    font-weight: lighter;
+    width:150px;
+}
+
+.backbtn{
+    background-color:rgb(64,64,122);
+    border:2px solid rgb(62, 202, 62);
+    color: rgb(62, 202, 62);
+    border-radius: 5px;
+    margin-right: 10px;
+    font-size: large;
+    font-weight: lighter;
+    width:150px;
+}
